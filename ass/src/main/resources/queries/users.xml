@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="queries.UsersDao.getUserByName">
+        select * from users where username = ?
+    </entry>
+
+    <entry key="queries.UsersDao.getUserRoles">
+        select
+            r.role_name
+        from
+            user_roles ur
+            inner join roles r
+        where ur.user_id = ?
+    </entry>
+</properties>

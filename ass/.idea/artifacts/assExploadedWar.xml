@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="assExploadedWar">
+    <output-path>$PROJECT_DIR$/target/assExploadedWar</output-path>
+    <root id="root">
+      <element id="module-output" name="ass" />
+    </root>
+  </artifact>
+</component>
